@@ -19,6 +19,9 @@ If you are going to try and remake what i have made, then follow these steps.
 Im not 100% done yet there are still alot of diffrent thing im going to improve, as i get around to them. 
 I need to improve the places of death so they dont show up the wrong places and i still need to make my tabbar function.
 
+Here is a video of how i start my script:
+https://www.youtube.com/watch?v=KYiebL_7a5M
+
 Here is a short video of how it looks like when it is all setup:
 https://www.youtube.com/watch?v=6UTw1jVkim4
 
