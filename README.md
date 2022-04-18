@@ -1,4 +1,6 @@
-Hello my name is Erik Luis Lanuza Oehlerich and welcome to my repository for making a shiny app with leaflet.
+Hello 
+
+My name is Erik Luis Lanuza Oehlerich and welcome to my repository for making a shiny app with leaflet.
 
 In this repository i will add all my files and code in a organised way:
 
@@ -6,7 +8,7 @@ There is a free use of what i add of files and code as long it is for a noncomer
 
 If you are going to try and remake what i have made, then follow these steps.
 
-1. Download the file clean_dataset_ww1_danes.csv and save it in your folder
+1. Download the file data_file_5_post_fix_of_cause_of_death_csv.csv and save it in your folder
 2. Download the file lat_long and save it as well.
 
 3. Then download and open the main file called Mainmapfile_WW1_Map
