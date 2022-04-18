@@ -29,11 +29,3 @@ https://youtu.be/T22RIYWD42U
 
 If you have any other questions, then you are welcome to write to me on my mail:
 eriklanuza@hotmail.com 
-
-
-
-
-
-
-
-
