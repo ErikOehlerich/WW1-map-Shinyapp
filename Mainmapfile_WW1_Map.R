@@ -125,14 +125,14 @@ createMyLeaflet <- function (soldiers) {
 
 #here i make some shortcuts, for my tabitems im not 100% sure yet of how to make this work but im trying diffrent things from here.
 
-box4( "Det her projekt startede i vinteren 2021 da jeg skulle finde et projekt at arbejde på til mit fag som hed Digitale Metoder oppe på Uni. Da jeg blev færdig i januar 2022 havde jeg skabt et basic kort, som der havde mange mangler ved, men som dog var et ”proof of concept” der illustrerede min ide. 
+tt <- "Det her projekt startede i vinteren 2021 da jeg skulle finde et projekt at arbejde på til mit fag som hed Digitale Metoder oppe på Uni. Da jeg blev færdig i januar 2022 havde jeg skabt et basic kort, som der havde mange mangler ved, men som dog var et ”proof of concept” der illustrerede min ide. 
 Kortet havde dengang ikke nogen muligheder for at filtrere og det kunne heller ikke finde ud af at vise Æ-Ø-Å samt de tyske bogstaver som fx Ü og Ö. 	
 Derfor blev dele af teksten ødelagt og jeg var tvunget til at bruge Regex til at manuelt erstatte alle de bogstaver som der udgjorde et problem. Det går imod mine principper som historiker, da jeg ikke kan lide at skulle pille ved brødteksten, men jeg var tvunget til at rense den sådan, at Å blev til Aa osv.
 Nu har jeg taget projektet op igen her i min påskeferie, hvor jeg har løst problemet med de særlige karakterer sådan, at jeg nu kan få programmet til at læse Æ-Ø-Å. Det vil sige, at jeg ikke ændrer i teksten og bare får programmet til at læse min csv fil med de rå data, som ikke er blevet renset.
 Det står også klart og tydeligt på hjemmesiden Denstorekrig.dk, at de ikke har tjekket deres tekst for fejl hvilket udgør et muligt problem. Dog har jeg i forbindelse med mine filtre været nødt til at systematisere og rense dataene i kategorien ”Cause of death” det kommer jeg mere ind på senere.
 Jeg har videre udviklet kortet til en Shinyapp sådan at jeg vil kunne få programmet op og køre på en server og dermed sende et link ud til folk som skulle virke uden problemer.	
 Selve programmet er ment som et redskab, som folk kan bruge til at undersøge nærmere hvor de danske soldater i tysk tjeneste faldt. Kortet skulle være bruger venligt sådan at både skoleelever, historieinteresserede, pensionister og andre kan få glæde af kortet. Jeg håber, at mit projekt kan inspirere andre og hjælpe dem med deres egne projekter, da min kode er opensource så længe man husker at kreditere mig som jeg har beskrevet inden på min GitHub.
-Mvh. Erik Luis Lanuza Oehlerich")    	
+Mvh. Erik Luis Lanuza Oehlerich"    	
 
 ll <- "Beskrivelser af udfordringer:	
 Jeg har før beskrevet nogle af de udfordringer som der har været i forbindelse med kortet i den del med Projektet, men det var problemer som der var i fortiden og som jeg har formået at klare.
@@ -185,7 +185,7 @@ ui <- fluidPage(
                                                   fluidRow(box(CC),
                                                            column(width = 12)))),
         tabItem("Link_til_original_data", div(p("https://denstorekrig1914-1918.dk/faldne-lister/liste-over-faldne-1914-1918/"))),
-        tabItem("Kontakt_info", div(p("Email = eriklanuza@hotmail.com og link til min GitHub = https://github.com/ErikOehlerich/WW1-map-Shinyapp"))),
+        tabItem("Kontakt_info", div(p("Email: eriklanuza@hotmail.com og link til min GitHub: https://github.com/ErikOehlerich/WW1-map-Shinyapp"))),
         tabItem("Projektet", div(p("Hvad projektet går ud på"),
                                  fluidRow(box(tt),
                                           column(width = 12)))),
