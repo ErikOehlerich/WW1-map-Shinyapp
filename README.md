@@ -1,10 +1,10 @@
 Hello 
 
-My name is Erik Luis Lanuza Oehlerich and welcome to my repository for making a shiny app with leaflet.
+My name is Erik Luis Lanuza Oehlerich and welcome to my repository for making a shinyapp with leaflet.
 
 In this repository i will add all my files and code in a organised way:
 
-There is a free use of what i add of files and code as long it is for a noncomercial or a scientific use and i am creditted by my full name, somewhere public in your work. Either add "Erik Luis Lanuza Oehlerich" or you can add an abbreviation "E.L.L.O" to your document.
+There is freeuse of what i add of files and code, as long it is for a noncomercial or a scientific use and i am creditted by my full name, somewhere public in your work. Either add "Erik Luis Lanuza Oehlerich" or you can add an abbreviation "E.L.L.O" to your document.
 
 
 Here is a video of how i start my script:
